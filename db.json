@@ -1,14 +1,52 @@
-{
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
-}
+[ 
+	{							
+		"messageId": "1111", 
+		"customerLicenseId": "123456789", 
+		"customerInfo":	{ 
+							"aadTenantId": "common", 
+							"applicationFamily": "BE", 
+							"applicationVersion": "BE Business Central 18.2", 
+							"getEnvironmentName": "Production", 
+							"platformFileVersion": "18.0.26213.26464", 
+							"platformProductVersion": "18.0.26213.26464", 
+							"isProduction": "Yes", 
+							"isSandbox": "No", 
+							"isOnprem": "Yes", 
+							"isSaas": "No", 
+							"isFinancials": "No", 
+							"isIntelligentCloud": "No", 
+							"url": "https://6f69a5b3d3.infra.ifacto.be:443/BC", 
+							"tenantId": "default", 
+							"getTenantDisplayName": "", 
+							"companyName": "CRONUS BELGIË NV", 
+							"userId": "IFACTOBE\\LAPASTI_1", 
+							"userSecurityId": "{00000000-0000-0000-0000-000000000001}", 
+							"clientComputerName": "msa-deepcool.ifacto.be"
+						} 
+	},
+  {							
+		"messageId": "2222", 
+		"customerLicenseId": "123456789", 
+		"customerInfo":	{ 
+							"aadTenantId": "common", 
+							"applicationFamily": "BE", 
+							"applicationVersion": "BE Business Central 18.2", 
+							"getEnvironmentName": "Production", 
+							"platformFileVersion": "18.0.26213.26464", 
+							"platformProductVersion": "18.0.26213.26464", 
+							"isProduction": "Yes", 
+							"isSandbox": "No", 
+							"isOnprem": "Yes", 
+							"isSaas": "No", 
+							"isFinancials": "No", 
+							"isIntelligentCloud": "No", 
+							"url": "https://6f69a5b3d3.infra.ifacto.be:443/BC", 
+							"tenantId": "default", 
+							"getTenantDisplayName": "", 
+							"companyName": "CRONUS BELGIË NV", 
+							"userId": "IFACTOBE\\LAPASTI_2", 
+							"userSecurityId": "{00000000-0000-0000-0000-000000000001}", 
+							"clientComputerName": "msa-deepcool.ifacto.be"
+						} 
+	} 
+]
